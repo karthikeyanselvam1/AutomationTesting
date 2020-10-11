@@ -24,7 +24,8 @@ public class HadndlingCIdevOps {
 			
 			WebElement login = driver.findElement(By.xpath("//*[@id='ctl00_MainContent_login_button']"));
 			login.click();
-
+		
+			System.out.println("Testings");
 
 	}
 
